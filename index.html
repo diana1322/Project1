@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Математический анализ - Главная страница</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="limits.html">Пределы</a></li>
+                <li><a href="derivatives.html">Производные</a></li>
+                <li><a href="#fragment">О курсе</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <header class="site-header">
+        <div class="header-content">
+            <img src="лого.jpg" alt="Логотип сайта" class="logo">
+            <h1 class="site-title">Математический анализ</h1>
+        </div>
+    </header>
+    
+    <main>
+        <section class="links-section">
+            <h2>Список гиперссылок</h2>
+            <ul>
+                <li><a href="http://kubsu.ru">1) Абсолютная гиперссылка на kubsu.ru</a></li>
+                <li><a href="https://kubsu.ru">2) Абсолютная на kubsu.ru по https</a></li>
+                <li><a href="https://kubsu.ru"><img src="image.jpg" alt="Цветок" width="100"></a></li>
+                <li><a href="limits.html">4) Сокращенная ссылка на внутреннюю страницу</a></li>
+                <li><a href="index.html">5) Сокращенная ссылка на главную страницу</a></li>
+                <li><a href="#fragment">6) Ссылка на фрагмент текущей страницы</a></li>
+                <li><a href="function_analyzer.html?a=2&b=3&c=1">7) Ссылка с тремя параметрами в URL</a></li>
+                <li><a href="theorem.html?id=lagrange">8) Ссылка с параметром id в URL</a></li>
+                <li><a href="derivatives.html">9) Относительная ссылка в текущем каталоге</a></li>
+                <li><a href="about/author.html">10) Относительная в каталоге about</a></li>
+                <li><a href="overview.html">11) Относительная уровнем выше текущего</a></li>
+                <li><a href="course_info.html">12) Относительная двумя уровнями выше</a></li>
+                <li>13) Изучая математический анализ, особенно важны <a href="limits.html">пределы функций</a> как основа всего курса</li>
+                <li><a href="https://yandex.ru#fragment">14) Ссылка на фрагмент страницы стороннего сайта</a></li>
+                <li>15) Ссылки из областей картинки:
+                    <img src="im2.png" alt="Фигуры" usemap="#map1" width="200">
+                    <map name="map1">
+                        <area shape="rect" coords="20,20,90,90" href="theorem.html?id=lagrange" alt="теорема">
+                        <area shape="circle" coords="150,80,40" href="about/author.html" alt="об авторе">
+                        <area shape="poly" coords="90,85,180,165,30,180" href="derivatives.html" alt="производные функции">
+                    </map>
+                </li>
+                <li><a href="">16) Ссылка с пустым href</a></li>
+                <li><a>17) Ссылка без href</a></li>
+                <li><a href="https://example.com" rel="nofollow">18) Ссылка запрещенная для поисковиков</a></li>
+                <li><a href="https://example.com" rel="noindex">19) Запрещенная для индексации</a></li>
+                <li>20) Нумерованный список ссылок с подписями:
+                    <ol>
+                        <li><a href="limits.html" title="Теория пределов">Пределы</a></li>
+                        <li><a href="derivatives.html" title="Производные функций">Производные</a></li>
+                        <li><a href="theorem.html" title="Основные теоремы">Теоремы</a></li>
+                    </ol>
+                </li>
+                <li><a href="ftp://user:password@ftp.example.com/file.txt">21) FTP ссылка с авторизацией</a></li>
+            </ul>
+        </section>
+
+        <section class="table-section">
+            <h2>Таблица разделов курса математического анализа</h2>
+            <table class="course-table">
+                <tr>
+                    <th>Раздел</th>
+                    <th>Тема</th>
+                    <th>Сложность</th>
+                    <th>Часы</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Пределы</td>
+                    <td>Предел функции</td>
+                    <td>Средняя</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Непрерывность функций</td>
+                    <td>Средняя</td>
+                    <td>6</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Дифференциальное исчисление</td>
+                    <td>Высокая</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Интегралы</td>
+                    <td>Неопределенный интеграл</td>
+                    <td>Высокая</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Ряды</td>
+                    <td>Числовые ряды</td>
+                    <td>Высокая</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Степенные ряды</td>
+                    <td>Очень высокая</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </section>
+
+        <div id="fragment">
+            <h2>Фрагмент страницы - О курсе</h2>
+            <p>Добро пожаловать на сайт по математическому анализу!</p>
+            <p>Здесь вы найдете основные темы курса математического анализа.</p>
+        </div>
+
+        <section class="form-section">
+            <h2>Форма обратной связи</h2>
+            <form action="/" method="POST">
+                <label>
+                    ФИО:<br>
+                    <input type="text" name="fio" pattern="[А-Яа-яЁё\s]+" title="ФИО должно содержать только буквы" required >
+                </label><br><br>
+                
+                <label>
+                    Телефон:<br>
+                    <input type="tel" name="phone" pattern="[0-9]{10}" title="Телефон должен содержать 10 цифр" required >
+                </label><br><br>
+                
+                <label>
+                    E-mail:<br>
+                    <input type="email" name="email" required >
+                </label><br><br>
+                
+                <label>
+                    Дата рождения:<br>
+                    <input type="date" name="birthdate">
+                </label><br><br>
+                
+                <label>Пол:</label><br>
+                <input type="radio" name="gender" value="male" id="male">
+                <label for="male">Мужской</label><br>
+                <input type="radio" name="gender" value="female" id="female">
+                <label for="female">Женский</label><br><br>
+                
+                <label>
+                    Любимый язык программирования:<br>
+                    <select name="language" multiple>
+                        <option value="pascal">Pascal</option>
+                        <option value="c">C</option>
+                        <option value="cpp">C++</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                        <option value="python">Python</option>
+                        <option value="java">Java</option>
+                        <option value="haskel">Haskel</option>
+                        <option value="clojure">Clojure</option>
+                        <option value="prolog">Prolog</option>
+                        <option value="scala">Scala</option>
+                    </select>
+                </label><br><br>
+                
+                <label>
+                    Вопрос или комментарий:<br>
+                    <textarea name="message" rows="5" cols="50"></textarea>
+                </label><br><br>
+                
+                <label>
+                    <input type="checkbox" name="agreement" required>
+                    Согласен с обработкой данных
+                </label><br><br>
+                
+                <input type="submit" value="Отправить">
+            </form>
+        </section>
+    </main>
+    
+    <footer class="site-footer">
+        <p>&copy; Баннова Диана Александровна, студентка 2 курса Прикладная информатика</p>
+    </footer>
+</body>
+</html>
